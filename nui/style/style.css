@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    background-color: rgba(26, 26, 26, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dashboard-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.dashboard-content {
+    font-size: 1rem;
+    color: #ccc;
+    text-align: center;
+}
+
+/* Add some hover effect to make it more interactive */
+div {
+    transition: transform 0.3s ease;
+}
+
+div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
